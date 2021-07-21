@@ -2,11 +2,12 @@ body{
     background-color: #1d1d1d;
     color: #fff;
     font-family: Arimo,Arial,Helvetica,"Lucida Grande",sans-serif;
+    margin: 0px;
 }
 
 .container{
     max-width: 1170px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
     padding-left: 15;
@@ -24,12 +25,12 @@ body{
     }
 
 .b1{
-    width: 390px;
+    width: 33%;
     flex: 1;   
 }
 
 .b2{
-    width: 390px;
+    width: 33%;
     flex: 1;
     
     
@@ -43,7 +44,7 @@ body{
     border: 5px solid white; border-radius: 4px ; 
 }
 .b3{
-    width: 390px;
+    width: 33%;
     flex: 1;
     
 }
@@ -128,3 +129,196 @@ body{
     height: 50px;
     
     }
+
+    .main-header{
+        padding: 1Opx 0px 0px;
+        background: #1d1d1d;
+        border-bottom: 1px solid #919191;
+        width: 100%;
+        height: 50px;
+        
+    }
+
+    
+
+    .logo-pics{
+        width: 100px;
+        height: 40px;
+        padding-left: 60px;
+        
+    }
+
+    .header1{
+        display: inline-block;
+        height: 50px;
+        
+    }
+
+    .text-header{
+        display: inline-block;
+        font-size: 1.2em;
+        color: #919191;
+        letter-spacing: 0.1em;
+        text-align: center;
+        
+    }
+
+    .search{
+        display: inline-block;
+        color: #919191;
+        border: 2px;
+        border-radius: 25px;
+        margin-left: 100px;
+        overflow: hidden;
+        
+    }
+    .search-text {
+        height: 25px;
+        width: 200px;
+        border: 1px;
+       align-items: center;
+       text-align: center;
+       
+    
+        
+    }
+
+    ::placeholder {
+        font-weight: bold; }
+
+    .search-icon{
+            display: inline-block;
+            color: #919191;
+            overflow: hidden;
+            
+        }
+
+        label{
+            display:none  ;
+            font-size: 25px;
+            line-height: 50px;
+            
+        }
+        #toggle{
+            display: none ;
+        }
+
+    .nav{
+        display: inline-block;
+        overflow: hidden;
+        margin-left: 40px;
+
+    }    
+
+    
+    
+
+
+    .tab-1{
+        margin-left: 10px;
+        color: #919191;
+        font-weight: bold;
+    }
+
+    .tab-2{
+        margin-left: 15px;
+        color: greenyellow;
+        font-weight: bold;   
+    }
+
+    .tab-3{
+        margin-left: 15px;
+        color: #919191;
+        font-weight: bold;
+    }
+
+    .tab-4{
+        margin-left: 15px;
+        color: #919191;
+        font-weight: bold;
+    }
+
+    .tab-5{
+        margin-left: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .tab-6{
+        margin-left: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .footer-main{
+        text-align: center;
+        background-color: #171717;
+        border-top:1px solid #919191;
+        margin-top: 30px;
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    .footer-main p{
+        display: inline;
+    
+    }
+
+    .footer-tab{
+        color: #919191;
+        margin-left: 15px;
+    }
+
+    @media only screen and (max-width: 768px){
+
+    .container{
+            flex-direction: column;
+            display: block;
+            width: 100%;
+            margin-left: 20px;
+        }
+     .mainDiv{
+            flex-direction: column;
+            width: 100%;
+            margin-left: 20px;
+        }
+    .nav label{
+        display: block;
+        cursor: pointer;
+        float: right;
+        
+    }
+    .nav .tabs{
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    .nav .tabs a{
+        display: block;
+        clear: right;
+        border-bottom: 1px solid #919191;
+        margin: 0px;
+    }
+    #toggle:checked + .tabs{
+        display: block;
+    }
+    .header1 .text-header{
+        display: none;
+    }
+    .search{
+        margin-left: 10px;
+    }
+   
+    }
+
+    
+
+   
+
+
+
+
+
+
+
+    
